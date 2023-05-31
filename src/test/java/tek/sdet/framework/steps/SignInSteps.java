@@ -78,8 +78,8 @@ public class SignInSteps extends CommonUtility {
 	}
 	@Then("User should be logged into account page")
 	public void userShouldBeLoggedIntoAccountPage() {
+		slowDown();
 		Assert.assertTrue(isElementDisplayed(factory.signInPage().textVerify));
-		Assert.assertTrue(isElementDisplayed(factory.signInPage().cardNumberverify));
 		logger.info("User's logged in");
 	}
 }

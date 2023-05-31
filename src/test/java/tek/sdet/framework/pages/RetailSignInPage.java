@@ -42,7 +42,4 @@ public class RetailSignInPage extends BaseSetup {
 	@FindBy(xpath="//h1[text()='Your Profile']")
 	public WebElement textVerify;
 	
-	@FindBy(xpath="//input[contains(@id,'NumberInput')]")
-	public WebElement cardNumberverify;
-	
 }
