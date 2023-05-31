@@ -8,10 +8,12 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		tags = "@SmokeTest",
+		tags = "@home",
 		features = ("classpath:features"),
 		glue ="tek.sdet.framework",
 		dryRun = false,
+		// if dryRun = true: Step definition will be ignored
+		// if dryRun = False: step definiton will be checked. 
 		plugin = {
                 "pretty",
                 "html:target/htmlReports/cucumber-pretty.html",
