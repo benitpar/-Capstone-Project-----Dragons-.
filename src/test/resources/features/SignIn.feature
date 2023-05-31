@@ -22,5 +22,5 @@ Then User should be logged into account page
 
 Examples:
 |name|email|password|confirmPassword|
-|student|newStudent85@tekschool.us|Tek@12345|Tek@12345|
+|student|newStudents89@tekschool.us|Tek@12345|Tek@12345|
 
