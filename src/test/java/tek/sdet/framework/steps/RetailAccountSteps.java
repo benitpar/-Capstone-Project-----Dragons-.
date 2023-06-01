@@ -69,7 +69,7 @@ public class RetailAccountSteps extends CommonUtility {
 	
 	@Then("a message should be displayed ‘Payment Method added successfully’")
 	public void aMessageShouldBeDisplayedPaymentMethodAddedSuccessfully() {
-		waitTillPresence(factory.accountPage().successPayMessage);
+		slowDown();
 		Assert.assertTrue(isElementDisplayed(factory.accountPage().successPayMessage));
 		logger.info("Pop up message displayed saying payment method added successfully");
 	}
@@ -104,13 +104,12 @@ public class RetailAccountSteps extends CommonUtility {
 	@When("user click on Update Your Card button")
 	public void userClickOnUpdateYourCardButton() {
 		click(factory.accountPage().updateCardBtn);
-		slowDown();
 		logger.info("User click on update your card button");
 	
 	}
 	@Then("a message should be displayed ‘Payment Method updated Successfully’")
 	public void aMessageShouldBeDisplayedPaymentMethodUpdatedSuccessfully() {
-		waitTillPresence(factory.accountPage().paymentUpdatedMessage);
+		slowDown();
 		Assert.assertTrue(isElementDisplayed(factory.accountPage().paymentUpdatedMessage));  
 		logger.info("Message displayed saying payment updated");
 	}
@@ -124,6 +123,7 @@ public class RetailAccountSteps extends CommonUtility {
 	}
 	@Then("payment details should be removed")
 	public void paymentDetailsShouldBeRemoved() {
+		isElementDisplayed(factory.accountPage().paymentSubmit);
 	}
 	
 	@When("User click on Add address option")
