@@ -79,7 +79,9 @@ public class RetailOrderSteps extends CommonUtility{
 		Assert.assertTrue(isElementDisplayed(factory.orderPage().qtyConfirmation));
 		slowDown();
 		click(factory.orderPage().cartBtn);
+		slowDown();
         click(factory.orderPage().deleteBtn);
+        slowDown();
         logger.info("Quantity of item selected icon appeared next to cart");
 	}
 	@Then("the cart icon quantity should change to {string}")
