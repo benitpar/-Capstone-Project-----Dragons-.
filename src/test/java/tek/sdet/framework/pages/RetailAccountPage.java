@@ -18,7 +18,7 @@ public class RetailAccountPage extends BaseSetup {
 	@FindBy(id = "nameInput")
 	public WebElement nameInput;
 
-	@FindBy(id = "personalPhoneInput")
+	@FindBy(xpath = "//button[@id='personalUpdateBtn']")
 	public WebElement phoneInput;
 	
 	@FindBy(id = "personalUpdateBtn")
@@ -60,7 +60,7 @@ public class RetailAccountPage extends BaseSetup {
   @FindBy(xpath="//div[text()='Payment Method updated Successfully']")
   public WebElement paymentUpdatedMessage;
     
-   @FindBy(xpath="//div[@data-id='6353']")
+   @FindBy(xpath="//div[@data-id='6803']")
    public WebElement deleteCardSelection;
    
    @FindBy(xpath="//button[text()='remove']")
