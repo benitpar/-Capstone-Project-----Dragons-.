@@ -1,4 +1,4 @@
-@final
+@order
 Feature: Retail Order
 
 Background: 
