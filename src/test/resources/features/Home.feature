@@ -1,4 +1,4 @@
-@home
+@final
 Feature: Retail Home
 
 Scenario: Verify Shop by Department sidebar

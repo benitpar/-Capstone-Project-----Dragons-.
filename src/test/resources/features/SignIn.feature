@@ -1,4 +1,4 @@
-@signIn
+@final
 Feature: Retail SignIn
 
 Background: 

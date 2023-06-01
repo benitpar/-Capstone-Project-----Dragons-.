@@ -1,4 +1,4 @@
-@retailAccount
+@final
 Feature: Retail Account
 
   Background: 
