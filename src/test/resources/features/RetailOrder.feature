@@ -1,11 +1,11 @@
-
+@final
 Feature: Retail Order
 
 Background: 
 Given User is on retail website
 When User click on Sign in option
 
-@order
+
 Scenario: Verify User can add an item to cart
 
 And User enter email 'benitez2813@live.com' and password 'Tek@12345'
@@ -20,7 +20,7 @@ And User click add to Cart button
 Then The cart icon quantity should change to '2'
 
 
-@order
+
 Scenario: Verify User can place an order with Shipping address and payment Method on file
 
 And User enter email 'benitez2813@live.com' and password 'Tek@12345'
