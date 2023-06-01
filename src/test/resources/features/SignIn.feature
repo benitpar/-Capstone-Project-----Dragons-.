@@ -1,4 +1,4 @@
-@signIn
+@final
 Feature: Retail SignIn
 
 Background: 
@@ -22,5 +22,5 @@ Then User should be logged into account page
 
 Examples:
 |name|email|password|confirmPassword|
-|student|newStudents12@tekschool.us|Tek@12345|Tek@12345|
+|student|newStudents11@tekschool.us|Tek@12345|Tek@12345|
 
