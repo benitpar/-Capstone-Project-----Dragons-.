@@ -659,3 +659,30 @@
 2023-06-01 17:48:49,171 [main] INFO logger_file - User filled in sign up information
 2023-06-01 17:48:54,297 [main] INFO logger_file - Sign up button clicked
 2023-06-01 17:48:59,360 [main] INFO logger_file - User's logged in
+2023-06-01 18:24:47,530 [main] INFO logger_file - user is on retail website
+2023-06-01 18:24:47,664 [main] INFO logger_file - user cliked on Sign In option
+2023-06-01 18:24:58,017 [main] INFO logger_file - user entered email and password
+2023-06-01 18:25:03,137 [main] INFO logger_file - user clicked on login button
+2023-06-01 18:25:08,225 [main] INFO logger_file - User's logged in
+2023-06-01 18:25:13,643 [main] INFO logger_file - User has changed the category
+2023-06-01 18:25:18,832 [main] INFO logger_file - User searched for item
+2023-06-01 18:25:23,952 [main] INFO logger_file - User clicked on search button
+2023-06-01 18:25:29,079 [main] INFO logger_file - User clicked on item in catalog
+2023-06-01 18:25:34,212 [main] INFO logger_file - User selected on quantity from dropdown
+2023-06-01 18:25:39,318 [main] INFO logger_file - User added item to cart
+2023-06-01 18:25:44,587 [main] INFO logger_file - Quantity of item selected icon appeared next to cart
+2023-06-01 18:25:47,631 [main] INFO logger_file - user is on retail website
+2023-06-01 18:25:47,754 [main] INFO logger_file - user cliked on Sign In option
+2023-06-01 18:25:58,059 [main] INFO logger_file - user entered email and password
+2023-06-01 18:26:03,179 [main] INFO logger_file - user clicked on login button
+2023-06-01 18:26:08,270 [main] INFO logger_file - User's logged in
+2023-06-01 18:26:23,711 [main] INFO logger_file - User changed category of item and searched for item
+2023-06-01 18:26:28,820 [main] INFO logger_file - User clicked on search button
+2023-06-01 18:26:33,926 [main] INFO logger_file - User clicked on item in catalog
+2023-06-01 18:26:39,054 [main] INFO logger_file - User selected on quantity from dropdown
+2023-06-01 18:26:44,200 [main] INFO logger_file - User added item to cart
+2023-06-01 18:26:44,228 [main] INFO logger_file - Quantity of item selected icon appeared next to cart
+2023-06-01 18:26:49,352 [main] INFO logger_file - User clicked on cart option
+2023-06-01 18:26:54,486 [main] INFO logger_file - User clicks on proceed to checkout button
+2023-06-01 18:26:59,599 [main] INFO logger_file - User clicked on place your order
+2023-06-01 18:26:59,644 [main] INFO logger_file - Pop up message will be displayed saying order was placed
