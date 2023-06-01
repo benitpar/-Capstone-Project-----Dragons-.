@@ -240,6 +240,7 @@ public class RetailAccountSteps extends CommonUtility {
 	}
 	@Then("Address details should be removed")
 	public void addressDetailsShouldBeRemoved() {
+		isElementDisplayed(factory.accountPage().deleteAddress);
 	}
 
 
