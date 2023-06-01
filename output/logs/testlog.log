@@ -1202,3 +1202,15 @@
 2023-06-01 02:22:52,864 - logger_file -INFO - user logged in into account
 2023-06-01 02:22:53,019 - logger_file -INFO - user clicked on Account option
 2023-06-01 02:22:53,114 - logger_file -INFO - User click on remove option
+2023-06-01 17:46:25,181 - logger_file -INFO - user is on retail website
+2023-06-01 17:46:25,744 - logger_file -INFO - user cliked on Sign In option
+2023-06-01 17:46:30,942 - logger_file -INFO - User clicked on Create New Account Button
+2023-06-01 17:46:51,826 - logger_file -INFO - User filled in sign up information
+2023-06-01 17:46:56,935 - logger_file -INFO - Sign up button clicked
+2023-06-01 17:47:01,973 - logger_file -INFO - User's logged in
+2023-06-01 17:48:23,343 - logger_file -INFO - user is on retail website
+2023-06-01 17:48:23,503 - logger_file -INFO - user cliked on Sign In option
+2023-06-01 17:48:28,608 - logger_file -INFO - User clicked on Create New Account Button
+2023-06-01 17:48:49,171 - logger_file -INFO - User filled in sign up information
+2023-06-01 17:48:54,297 - logger_file -INFO - Sign up button clicked
+2023-06-01 17:48:59,360 - logger_file -INFO - User's logged in
