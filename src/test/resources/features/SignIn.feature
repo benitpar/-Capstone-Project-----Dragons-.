@@ -1,4 +1,4 @@
-@final
+@signIn
 Feature: Retail SignIn
 
 Background: 
@@ -12,7 +12,7 @@ And User enter email 'louieben300@gmail.com' and password 'Lou@ons123'
 And User click on login button
 Then User should be logged into Account
 
-@signIn
+
 Scenario: Verify user can create an account into Retail Website
 
 And User click on Create New Account button
@@ -22,5 +22,5 @@ Then User should be logged into account page
 
 Examples:
 |name|email|password|confirmPassword|
-|student|newStudents50@tekschool.us|Tek@12345|Tek@12345|
+|student|newStudents12@tekschool.us|Tek@12345|Tek@12345|
 

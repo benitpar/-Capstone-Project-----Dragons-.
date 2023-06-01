@@ -60,7 +60,7 @@ public class RetailAccountPage extends BaseSetup {
   @FindBy(xpath="//div[text()='Payment Method updated Successfully']")
   public WebElement paymentUpdatedMessage;
     
-   @FindBy(xpath="//div[@data-id='6803']")
+   @FindBy(xpath="//div[@data-id='6821']")
    public WebElement deleteCardSelection;
    
    @FindBy(xpath="//button[text()='remove']")
